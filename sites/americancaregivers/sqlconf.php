@@ -1,0 +1,1 @@
+<?php $host="mysql"; $port="3306"; $login="admin"; $pass="iris"; $dbase="aci-EMR"; $disable_utf8_flag=false; $sqlconf=array(); $sqlconf["host"]=$host; $sqlconf["port"]=$port; $sqlconf["login"]=$login; $sqlconf["pass"]=$pass; $sqlconf["dbase"]=$dbase; $sqlconf["disable_utf8_flag"]=$disable_utf8_flag; $config=0; ?> 

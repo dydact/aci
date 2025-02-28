@@ -127,6 +127,26 @@ $GLOBALS['css_header'] = "
 }
 ";
 
+// Add missing global variables that were in the error logs
+$GLOBALS['language_default'] = 'English (Standard)';
+$GLOBALS['allow_debug_language'] = false;
+$GLOBALS['language_menu_showall'] = false;
+$GLOBALS['tiny_logo_1'] = '';
+$GLOBALS['tiny_logo_2'] = '';
+$GLOBALS['login_into_facility'] = false;
+$GLOBALS['google_signin_client_id'] = '';
+$GLOBALS['show_label_login'] = true;
+$GLOBALS['show_tagline_on_login'] = true;
+$GLOBALS['display_acknowledgements_on_login'] = false;
+$GLOBALS['show_labels_on_login_form'] = true;
+$GLOBALS['show_primary_logo'] = true;
+$GLOBALS['primary_logo_width'] = '300';
+$GLOBALS['logo_position'] = 'center';
+$GLOBALS['secondary_logo_width'] = '100';
+$GLOBALS['extra_logo_login'] = false;
+$GLOBALS['secondary_logo_position'] = 'left';
+$GLOBALS['login_page_layout'] = 'center';
+
 //don't alter below this line unless you are an advanced user and know what you are doing
 
 $GLOBALS['oer_config']['prescriptions']['logo'] = dirname(__FILE__) .
