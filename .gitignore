@@ -1,0 +1,37 @@
+# Docker volumes
+data/
+
+# Development environment specific
+.vscode/
+.idea/
+*.sublime-*
+
+# Environment variables
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Node modules if any frontend development
+node_modules/
+npm-debug.log
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Backup files
+*~
+*.bak
+*.swp 
