@@ -1,0 +1,99 @@
+/**
+ * iris Brand Stylesheet
+ * Custom styling for iris EMR - American Caregivers Incorporated
+ */
+
+/* Import Google Fonts for the iris branding */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* Brand colors */
+:root {
+  --iris-primary: #6978E4;
+  --iris-secondary: #7E8BF7;
+  --iris-accent: #3F51B5;
+  --iris-text: #333333;
+  --iris-light: #E8EAFF;
+  --iris-white: #FFFFFF;
+  --iris-gray: #F5F7FA;
+  --aci-blue: #94D6E7;
+}
+
+/* Login page iris branding */
+.login-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--iris-primary);
+  letter-spacing: -0.5px;
+  margin-bottom: 5px;
+}
+
+.login-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Header branding */
+.navbar-brand .brand-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-brand .brand-text {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--iris-primary);
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+/* Custom styling for American Caregivers */
+.facility-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: var(--aci-blue);
+}
+
+/* Button styling */
+.btn-iris {
+  background-color: var(--iris-primary);
+  border-color: var(--iris-primary);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.2s ease;
+}
+
+.btn-iris:hover, .btn-iris:focus {
+  background-color: var(--iris-secondary);
+  border-color: var(--iris-secondary);
+  box-shadow: 0 4px 8px rgba(105, 120, 228, 0.3);
+}
+
+/* Panel styling */
+.panel-iris {
+  border-color: var(--iris-light);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.panel-iris > .panel-heading {
+  background-color: var(--iris-light);
+  border-color: var(--iris-light);
+  color: var(--iris-primary);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+/* Form controls */
+.form-control:focus {
+  border-color: var(--iris-primary);
+  box-shadow: 0 0 0 0.2rem rgba(105, 120, 228, 0.25);
+} 

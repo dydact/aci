@@ -82,9 +82,50 @@ $GLOBALS['practice_city'] = "Silver Spring";
 $GLOBALS['practice_state'] = "MD";
 $GLOBALS['practice_zip'] = "20904";
 
-// dydact LLMs branding
+// dydact LLMs branding with text-based iris
 $GLOBALS['openemr_name'] = "iris,";
 $GLOBALS['login_tagline_text'] = "Powered by dydact LLMs";
+$GLOBALS['css_header'] = "
+/* Custom CSS for iris branding */
+:root {
+  --iris-primary: #6978E4;
+  --iris-secondary: #7E8BF7;
+  --iris-accent: #3F51B5;
+  --iris-text: #333333;
+}
+
+/* Login page styling */
+.login-content .form-signin {
+  background-color: white !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px !important;
+}
+
+/* iris text styling */
+.title-text {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 36px !important;
+  color: var(--iris-primary) !important;
+  letter-spacing: -0.5px !important;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* General styling improvements */
+.btn-primary {
+  background-color: var(--iris-primary) !important;
+  border-color: var(--iris-primary) !important;
+}
+.btn-primary:hover {
+  background-color: var(--iris-secondary) !important;
+  border-color: var(--iris-secondary) !important;
+}
+";
 
 //don't alter below this line unless you are an advanced user and know what you are doing
 

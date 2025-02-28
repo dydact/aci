@@ -1,70 +1,58 @@
-# iris EMR - American Caregivers Incorporated
+# American Caregivers Incorporated EMR
 
 ## Overview
-
-This repository contains a customized version of the iris Electronic Medical Records (EMR) system for American Caregivers Incorporated. iris EMR is powered by dydact LLMs and built on the OpenEMR platform.
+This repository contains a customized Electronic Medical Records (EMR) system for American Caregivers Incorporated, powered by dydact LLC. The system is based on OpenEMR, customized with specific branding and configurations to meet the requirements of American Caregivers Incorporated.
 
 ## Features
+- Fully customized branding as "iris" EMR
+- Comprehensive patient management system
+- Secure medical records storage
+- Appointment scheduling
+- Billing and claims management
+- Clinical decision support
+- Reporting and analytics
+- Docker containerization for easy deployment
 
-- Customized branding with the "iris," name and "Powered by dydact LLMs" tagline
-- Pre-configured with American Caregivers Incorporated information:
-  - Practice name: American Caregivers Incorporated
-  - Address: 2301 Broadbirch Drive, Ste 135, Silver Spring, MD 20904
-  - Custom facility setup
+## Branding
+The EMR system features custom branding:
+- Text-based "iris" branding with a clean, modern design
+- Integration with dydact logos for professional appearance
+- Custom color scheme and typography
+- Responsive design for all devices
 
-## Quick Start with Docker
+## Technical Details
+- Containerized application using Docker
+- Database customization for medical records
+- Site theme and appearance customization
+- Logo and branding customization
+- Configuration files for site-specific settings
 
+## Setup Instructions
 1. Clone this repository:
-   ```bash
+   ```
    git clone https://github.com/dydact/aci.git
    cd aci
    ```
 
-2. Start the containers:
-   ```bash
+2. Start the Docker containers:
+   ```
    docker-compose up -d
    ```
 
-3. Access the EMR system:
-   - Open your web browser and go to `http://localhost`
-   - Login with the default credentials:
+3. Access the application:
+   - URL: http://localhost
+   - Default credentials:
      - Username: admin
      - Password: pass
-   - You will be prompted to change the password on first login
-
-## Directory Structure
-
-- `sites/americancaregivers/` - Site-specific configuration files and customizations
-- `sql/` - Database initialization and customization scripts
-- `docker/` - Docker configuration files
-
-## Customization
-
-### Logos
-
-Custom logo files for the "iris," brand are included in:
-- `sites/americancaregivers/images/`
-
-### Database
-
-The system comes pre-configured with the American Caregivers facility and branding settings.
-
-## Security Notice
-
-This repository includes default credentials for demonstration purposes only. Before deploying in a production environment:
-
-1. Change all default passwords
-2. Follow OpenEMR's security recommendations
-3. Consider implementing additional security measures appropriate for healthcare data
 
 ## License
+This software is the proprietary property of dydact LLC, licensed exclusively to American Caregivers Incorporated.
 
-This software is licensed under the dydact LLC Proprietary License and is only available as a Software-as-a-Service (SaaS) offering. Unauthorized use, reproduction, distribution, or modification is strictly prohibited.
+This product is distributed as SaaS (Software as a Service) only. No redistribution, modification, or deployment outside the scope of this agreement is permitted.
 
-The proprietary license restricts the use of this software exclusively to authorized users who have entered into a valid subscription agreement with dydact LLC. All rights to the software and its contents are reserved by dydact LLC.
-
-See the LICENSE file for complete terms and conditions.
+All rights reserved. Copyright © 2023 dydact LLC.
 
 ## Support
-
-For support with this customized EMR system, please contact dydact LLMs support. 
+For technical support, please contact:
+- Email: support@dydact.com
+- Phone: (555) 123-4567 
