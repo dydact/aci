@@ -12,7 +12,7 @@ UPDATE `globals` SET `gl_value` = 'info@americancaregivers.example.com' WHERE `g
 UPDATE `globals` SET `gl_value` = 'www.americancaregivers.example.com' WHERE `gl_name` = 'practice_website';
 
 -- Update branding
-UPDATE `globals` SET `gl_value` = 'iris,' WHERE `gl_name` = 'openemr_name';
+UPDATE `globals` SET `gl_value` = 'iris' WHERE `gl_name` = 'openemr_name';
 UPDATE `globals` SET `gl_value` = 'Powered by dydact LLMs' WHERE `gl_name` = 'login_tagline_text';
 
 -- Add a facility record for the American Caregivers location
